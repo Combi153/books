@@ -9,6 +9,13 @@ public class StudentTest {
 		studentJu.address = "성남시 수정구 태평동";
 		
 		studentJu.showStudentInfor();
+		
+		String name = studentJu.getStudentName();
+		System.out.println(name);
+		
+		studentJu.setStudentName("주찬희");
+		name = studentJu.getStudentName();
+		System.out.println(name);
 	}
 
 }

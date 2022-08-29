@@ -1,0 +1,40 @@
+package classpart;
+
+public class Student {
+	
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
+	
+	public void showStudentInfor() {
+		System.out.println(studentName + "," + address); 
+	}
+	
+	public String getStudentName() { // 사용하는 입장에서 메서드 이름 짓는다. 
+		return studentName;
+	}
+	
+	public void setStudentName(String name) {
+		studentName = name;
+	}
+	public static void main(String[] args) { // JDK가 실행함
+		
+		int i = 10; // 기본 데이터 타입 (int 등)
+
+		Student studentJu = new Student(); // 참조형 데이터 타입, 참조형 데이터 변수
+		studentJu.studentName = "주찬민";
+		studentJu.studentID = 100;
+		studentJu.address = "성남시 수정구 태평동";
+		
+		Student studentNo = new Student(); // 참조형 데이터 타입, 참조형 데이터 변수
+		studentNo.studentName = "노드재희에스";
+		studentNo.studentID = 101;
+		studentNo.address = "서울시 영등포구 여의도동";
+		
+		studentJu.showStudentInfor();
+		studentNo.showStudentInfor();
+		
+		
+	}
+}
