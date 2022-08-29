@@ -1,0 +1,22 @@
+package classpart;
+
+public class Student {
+	
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
+	
+	public void showStudentInfor() {
+		System.out.println(studentName + "," + address); 
+	}
+	public static void main(String[] args) {
+		
+		Student studentJu = new Student();
+		studentJu.studentName = "주찬민";
+		studentJu.address = "성남시 수정구 태평동";
+		
+		studentJu.showStudentInfor();
+	}
+
+}
