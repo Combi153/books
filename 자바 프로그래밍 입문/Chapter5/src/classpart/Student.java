@@ -2,10 +2,10 @@ package classpart;
 
 public class Student {
 	
-	int studentID;
-	String studentName;
-	int grade;
-	String address;
+	public int studentID;
+	public String studentName;
+	public int grade;
+	public String address;
 	
 	// 생성자없이 썼다. 자바 컴파일러가 클래스에 생성자 없으면 default로 넣어준다.
 	// default : public Student() {} 생성자에 매개변수가 없다. 
