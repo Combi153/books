@@ -2,4 +2,18 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="practice.VIPCustomer"/>
+    <fullyQualifiedTypeName name="scheduler.RoundRobin"/>
+    <fullyQualifiedTypeName name="scheduler.LeastJob"/>
+    <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="interfaceex2.MyInterface"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="object.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="generics.ThreeDPrinter"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
+    <fullyQualifiedTypeName name="collection.arraylist.MemberArrayList"/>
+    <fullyQualifiedTypeName name="collection.Member"/>
 </qualifiedTypeNameHistroy>
