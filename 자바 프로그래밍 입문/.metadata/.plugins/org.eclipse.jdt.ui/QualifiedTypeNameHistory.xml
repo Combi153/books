@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="practice.VIPCustomer"/>
     <fullyQualifiedTypeName name="scheduler.RoundRobin"/>
     <fullyQualifiedTypeName name="scheduler.LeastJob"/>
@@ -15,5 +14,19 @@
     <fullyQualifiedTypeName name="generics.ThreeDPrinter"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
     <fullyQualifiedTypeName name="collection.arraylist.MemberArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="collection.hashmap.MemberHashMap"/>
     <fullyQualifiedTypeName name="collection.Member"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="innerclass.OutClass"/>
+    <fullyQualifiedTypeName name="innerclass.OutClass.InClass"/>
+    <fullyQualifiedTypeName name="innerclass.OutClass.InStaticClass"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="lambda.StringConCatImpl"/>
+    <fullyQualifiedTypeName name="lambda.StringConcat"/>
+    <fullyQualifiedTypeName name="lambda.PrintStirng"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="stream.CompareString"/>
 </qualifiedTypeNameHistroy>

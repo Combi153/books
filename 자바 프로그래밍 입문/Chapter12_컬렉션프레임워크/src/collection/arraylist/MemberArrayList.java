@@ -1,6 +1,8 @@
 package collection.arraylist;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+
 import collection.Member;
 
 public class MemberArrayList {
@@ -17,11 +19,21 @@ public class MemberArrayList {
 	
 	public boolean removeMember(int memberId) {
 		
-		for (int i = 0; i < arrayList.size(); i++) {
+		/*for (int i = 0; i < arrayList.size(); i++) {
 			Member member = arrayList.get(i);
 			int tempId = member.getMemberId();
 			if ( memberId == tempId) {
 				arrayList.remove(i);
+				return true;
+			}
+		}*/
+		
+		Iterator<Member> iterator = arrayList.iterator();
+		while ( iterator.hasNext() )  { //다음 element가 있느냐? 있으면 반복
+			Member member = iterator.next();
+			int tempId = member.getMemberId();
+			if ( memberId == tempId) {
+				arrayList.remove(member); //remove는 object를 없앨 때도 있다.
 				return true;
 			}
 		}
