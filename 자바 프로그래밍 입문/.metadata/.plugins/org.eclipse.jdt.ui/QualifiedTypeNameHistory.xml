@@ -27,6 +27,9 @@
     <fullyQualifiedTypeName name="lambda.StringConcat"/>
     <fullyQualifiedTypeName name="lambda.PrintStirng"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="stream.CompareString"/>
+    <fullyQualifiedTypeName name="template.Car"/>
+    <fullyQualifiedTypeName name="gamelevel.Player"/>
+    <fullyQualifiedTypeName name="practice.PlayerLevel"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
